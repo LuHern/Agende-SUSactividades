@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aqua_mark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/suspantalla3">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="350dp"
+        android:layout_marginBottom="671dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/red_among_us_png" />
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/mar_top_top"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/et_name_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar_top"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/et_name_act"
+        android:textColor="@color/sky_blue" />
+
+    <TextView
+        android:id="@+id/tv_descripcion"
+        android:layout_below="@id/et_name_act"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/mar_top"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/et_descripcion_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_descripcion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar_top"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/et_descripcion_act"
+        android:textColor="@color/sky_blue" />
+
+    <TextView
+        android:id="@+id/tv_fecha_inicio"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar_top"
+        android:layout_below="@id/et_descripcion_act"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/et_fecha_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_fecha_inicio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar_top"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/et_fecha_asignacion"
+        android:textColor="@color/sky_blue" />
+
+    <TextView
+        android:id="@+id/tv_fecha_termina"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar_top"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_fecha_inicio"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/et_fecha_terminacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_fecha_termina"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar_top"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/et_fecha_terminacion"
+        android:textColor="@color/sky_blue" />
+
+    <TextView
+        android:id="@+id/tv_owner_act"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar_top"
+        android:layout_below="@id/et_fecha_terminacion"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/et_owner_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_owner_act"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/mar_top"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/et_user_activity"
+        android:textColor="@color/sky_blue" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_aceptar_bottom"
+        android:layout_marginLeft="@dimen/btn_aceptar_left"
+        android:backgroundTint="@color/sky_blue"
+        android:text="@string/btn_aceptar"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

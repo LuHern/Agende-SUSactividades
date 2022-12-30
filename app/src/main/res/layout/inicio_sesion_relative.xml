@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/suspantalla3"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="295dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/amongussession" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/texto_presentacion"
+        android:textColor="#1E34B1"
+        android:shadowColor="@color/amarillo"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="683dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/fondo_inicio_sesion"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="286dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/red_among_us_png" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginStart="1dp"
+            android:text="@string/tv_usuario"
+            android:textColor="@color/sky_blue"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_usuario"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text=""
+            android:textColor="@color/sky_blue"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:textSize="20sp"
+            android:textColor="@color/sky_blue"
+            android:text="@string/tv_password" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_usuario"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/espacio"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:password="false"
+            android:text=""
+            android:textColor="@color/sky_blue"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_acceder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/disenio_boton_acceder"
+            android:backgroundTint="@color/purple_500"
+            android:text="@string/btn_acceso" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

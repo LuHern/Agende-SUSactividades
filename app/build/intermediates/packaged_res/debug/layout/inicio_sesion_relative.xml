@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/amongussession" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/red_among_us_png" />
+
+    <EditText
+        android:id="@+id/et_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_login"
+        android:inputType="textPersonName"
+        android:text="@string/et_usuario" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:password="false"
+        android:text="@string/et_password" />
+
+    <Button
+        android:id="@+id/btn_acceder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_password"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn_acceso" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="60px"
+        android:text="Agende SUS Actividades"
+        android:textColor="#1E34B1" />
+</RelativeLayout>

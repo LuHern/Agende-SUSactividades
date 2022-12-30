@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="mar_top">20dp</dimen>
+    <dimen name="mar_top_top">50dp</dimen>
+    <dimen name="margin_left">20dp</dimen>
+    <dimen name="margin_right">20dp</dimen>
+    <dimen name="obj_space">10dp</dimen>
+    <string name="app_name">AgendeSusActividades</string>
+    <string name="btn_acceso">Acceder</string>
+    <string name="et_descripcion_act">Descripcion de la actividad</string>
+    <string name="et_fecha_asignacion">Fecha de Inicio</string>
+    <string name="et_fecha_terminacion">Fecha de Culminacion</string>
+    <string name="et_name_act">Nombre de la actividad</string>
+    <string name="et_num_activity">Actividad #:</string>
+    <string name="et_password">Contraseña</string>
+    <string name="et_user_activity">Usuario Encargado</string>
+    <string name="et_usuario">Usuario</string>
+    <style name="Theme.AgendeSusActividades" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

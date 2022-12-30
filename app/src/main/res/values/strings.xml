@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AgendeSusActividades</string>
+    <string name="texto_presentacion">Agende SUS Actividades</string>
+    <string name="tv_usuario">Usuario</string>
+    <string name="tv_password">Contraseña</string>
+    <string name="btn_acceso">Acceder</string>
+    <string name="et_name_act">Nombre de la actividad</string>
+    <string name="et_descripcion_act">Descripcion de la actividad</string>
+    <string name="et_fecha_asignacion">Fecha de Inicio</string>
+    <string name="et_fecha_terminacion">Fecha de Culminacion</string>
+    <string name="et_user_activity">Usuario Encargado</string>
+    <string name="et_num_activity">Actividad #:</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="espacio"> </string>
+
+
+</resources>

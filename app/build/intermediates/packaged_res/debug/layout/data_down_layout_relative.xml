@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/red_among_us_png" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/mar_top_top"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_height="wrap_content"
+        android:text="@string/et_num_activity" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="@dimen/obj_space"
+        android:ems="10"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:inputType="textPersonName"
+        android:text="" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mar_top">10dp</dimen>
+    <dimen name="mar_top_top">50dp</dimen>
+    <dimen name="margin_left">20dp</dimen>
+    <dimen name="margin_right">20dp</dimen>
+    <dimen name="obj_space">10dp</dimen>
+
+    <dimen name="et_bottom">80dp</dimen>
+    <dimen name="btn_aceptar_bottom">500dp</dimen>
+    <dimen name="btn_aceptar_left">140dp</dimen>
+
+
+</resources>
