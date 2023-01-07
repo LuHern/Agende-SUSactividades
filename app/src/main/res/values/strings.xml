@@ -13,6 +13,7 @@
     <string name="btn_aceptar">Aceptar</string>
     <string name="espacio"> </string>
     <string name="btn_crear">Crear</string>
+    <string name="menu_nuevo">Nueva Actividad</string>
 
 
 </resources>

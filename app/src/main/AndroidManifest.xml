@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AgendeSusActividades"
         tools:targetApi="31">
         <activity
-            android:name=".NuevoActivity"
+            android:name=".ActivityCrearBaseDatos"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

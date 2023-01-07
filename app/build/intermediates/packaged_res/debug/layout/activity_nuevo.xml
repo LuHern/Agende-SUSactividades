@@ -4,15 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ActivityCrearBaseDatos"
-    android:background="@drawable/suspantalla3">
+    tools:context=".NuevoActivity">
 
     <Button
         android:id="@+id/btnCrear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="235dp"
-        android:text="@string/btn_crear"
-        android:background="@drawable/disenio_boton_acceder"
-        />
+        android:layout_marginTop="155dp"
+        android:text="@string/btn_crear" />
 </RelativeLayout>

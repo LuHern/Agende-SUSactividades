@@ -21,6 +21,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.AgendeSusActividades" >
         <activity
+            android:name="com.example.agendesusactividades.NuevoActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.agendesusactividades.MainActivity2"
             android:exported="false" >
             <meta-data

@@ -31,9 +31,8 @@ drawable suspantalla
 drawable suspantalla2
 drawable suspantalla3
 id aqua_mark
+id btnCrear
 id btn_acceder
-id btn_crear
-id btncrear
 id button
 id editTextTextPersonName
 id et_descripcion_act
@@ -45,6 +44,7 @@ id et_password
 id et_usuario
 id imageView
 id img_login
+id menu_nuevo
 id textView
 id textView2
 id textView3
@@ -56,9 +56,11 @@ id tv_nombre
 id tv_owner_act
 layout activity_main
 layout activity_main2
+layout activity_nuevo
 layout data_down_layout_relative
 layout data_up_layout_relative
 layout inicio_sesion_relative
+menu menu_principal
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
@@ -72,6 +74,7 @@ string et_fecha_terminacion
 string et_name_act
 string et_num_activity
 string et_user_activity
+string menu_nuevo
 string texto_presentacion
 string tv_password
 string tv_usuario
