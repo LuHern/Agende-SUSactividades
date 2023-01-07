@@ -12,6 +12,7 @@
     <string name="et_num_activity">Actividad #:</string>
     <string name="btn_aceptar">Aceptar</string>
     <string name="espacio"> </string>
+    <string name="btn_crear">Crear</string>
 
 
 </resources>
