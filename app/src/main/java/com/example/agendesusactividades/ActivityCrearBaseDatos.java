@@ -21,7 +21,7 @@ public class ActivityCrearBaseDatos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nuevo);
+        setContentView(R.layout.activity_crear_base_datos);
        btn_Crear = findViewById(R.id.btnCrear);
 
        btn_Crear.setOnClickListener(new View.OnClickListener() {
