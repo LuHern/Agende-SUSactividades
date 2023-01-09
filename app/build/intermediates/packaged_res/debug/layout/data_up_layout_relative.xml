@@ -35,8 +35,9 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/et_name_act"
-        android:textColor="@color/sky_blue" />
+        android:textColorHint="@color/sky_blue"
+        android:hint="@string/et_name_act"
+         />
 
     <TextView
         android:id="@+id/tv_descripcion"
@@ -57,8 +58,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/et_descripcion_act"
-        android:textColor="@color/sky_blue" />
+        android:hint="@string/et_descripcion_act"
+        android:textColorHint="@color/sky_blue" />
 
     <TextView
         android:id="@+id/tv_fecha_inicio"
@@ -79,8 +80,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/et_fecha_asignacion"
-        android:textColor="@color/sky_blue" />
+        android:hint="@string/et_fecha_asignacion"
+        android:textColorHint="@color/sky_blue" />
 
     <TextView
         android:id="@+id/tv_fecha_termina"
@@ -101,8 +102,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/et_fecha_terminacion"
-        android:textColor="@color/sky_blue" />
+        android:hint="@string/et_fecha_terminacion"
+        android:textColorHint="@color/sky_blue" />
 
     <TextView
         android:id="@+id/tv_owner_act"
@@ -123,8 +124,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/et_user_activity"
-        android:textColor="@color/sky_blue" />
+        android:hint="@string/et_user_activity"
+        android:textColorHint="@color/sky_blue" />
 
 
     <Button

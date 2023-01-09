@@ -60,10 +60,6 @@
         "source": "C:\\Users\\karla izabal\\.gradle\\daemon\\7.4\\com.example.agendesusactividades.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.agendesusactividades.app-merged_res-29:/layout_activity_crear_base_datos.xml.flat",
-        "source": "com.example.agendesusactividades.app-main-31:/layout/activity_crear_base_datos.xml"
-    },
-    {
         "merged": "C:\\Users\\karla izabal\\.gradle\\daemon\\7.4\\com.example.agendesusactividades.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\karla izabal\\.gradle\\daemon\\7.4\\com.example.agendesusactividades.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -94,6 +90,10 @@
     {
         "merged": "C:\\Users\\karla izabal\\.gradle\\daemon\\7.4\\com.example.agendesusactividades.app-merged_res-29:\\layout_activity_crear_base_datos.xml.flat",
         "source": "C:\\Users\\karla izabal\\.gradle\\daemon\\7.4\\com.example.agendesusactividades.app-main-31:\\layout\\activity_crear_base_datos.xml"
+    },
+    {
+        "merged": "com.example.agendesusactividades.app-merged_res-29:/layout_data_up_layout_relative.xml.flat",
+        "source": "com.example.agendesusactividades.app-main-31:/layout/data_up_layout_relative.xml"
     },
     {
         "merged": "C:\\Users\\karla izabal\\.gradle\\daemon\\7.4\\com.example.agendesusactividades.app-merged_res-29:\\drawable_fondorosa.png.flat",
