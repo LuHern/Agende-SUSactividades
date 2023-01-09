@@ -29,6 +29,7 @@
     <string name="et_fecha_terminacion">Fecha de Culminacion</string>
     <string name="et_name_act">Nombre de la actividad</string>
     <string name="et_num_activity">Actividad #:</string>
+    <string name="et_numb_act">Actividad N#</string>
     <string name="et_user_activity">Usuario Encargado</string>
     <string name="menu_nuevo">Nueva Actividad</string>
     <string name="texto_presentacion">Agende SUS Actividades</string>

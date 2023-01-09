@@ -1,6 +1,8 @@
 package com.example.agendesusactividades;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -12,18 +14,32 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.agendesusactividades.adaptadores.ListaActividadesAdapter;
+import com.example.agendesusactividades.db.DbAgenda;
 import com.example.agendesusactividades.db.DbHelper;
+import com.example.agendesusactividades.entidades.Actividades;
+
+import java.util.ArrayList;
 
 public class CrearBaseDatos extends AppCompatActivity {
-    Button btnCrear;
+    RecyclerView listaActividades;
+    ArrayList <Actividades> listaArrayActividades;
     private Menu menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crear_base_datos);
-        btnCrear = findViewById(R.id.btnCrear);
+        listaActividades = findViewById(R.id.lista_actividades);
+        listaActividades.setLayoutManager(new LinearLayoutManager(this));
 
+        DbAgenda dbAgenda = new DbAgenda(CrearBaseDatos.this);
+
+        listaArrayActividades = new ArrayList<>();
+        ListaActividadesAdapter adapter = new ListaActividadesAdapter(dbAgenda.mostrarActividades());
+        listaActividades.setAdapter(adapter);
+
+        /*
         btnCrear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,7 +51,7 @@ public class CrearBaseDatos extends AppCompatActivity {
                     Toast.makeText(CrearBaseDatos.this, "ERROR AL CREAR BASE DE DATOS", Toast.LENGTH_LONG).show();
                 }
             }
-        });
+        });*/
     }
 
     public boolean onCreateOptionsMenu(Menu menu){

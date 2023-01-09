@@ -12,15 +12,16 @@
         android:layout_height="50dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="350dp"
-        android:layout_marginBottom="671dp"
+        android:layout_marginRight="357dp"
+        android:layout_marginBottom="670dp"
         android:adjustViewBounds="true"
         app:srcCompat="@drawable/red_among_us_png" />
+
 
     <TextView
         android:id="@+id/tv_nombre"
         android:layout_width="wrap_content"
-        android:layout_marginTop="@dimen/mar_top_top"
+        android:layout_marginTop="65sp"
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:text="" />
@@ -132,8 +133,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/btn_aceptar_bottom"
         android:layout_marginLeft="@dimen/btn_aceptar_left"
+        android:layout_marginTop="@dimen/btn_aceptar_bottom"
         android:backgroundTint="@color/sky_blue"
         android:text="@string/btn_aceptar"
         android:textColor="@color/black" />
