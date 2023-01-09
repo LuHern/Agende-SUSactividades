@@ -100,7 +100,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ka
 		ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:13:9-58
 	android:dataExtractionRules
 		ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.agendesusactividades.NuevoActivity
+activity#com.example.agendesusactividades.MainActivity2
 ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:17:13-37
@@ -112,12 +112,12 @@ ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyec
 		ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:19:17-52
-activity#com.example.agendesusactividades.MainActivity2
+activity#com.example.agendesusactividades.CrearBaseDatos
 ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:exported
 		ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:23:13-42
+		ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:23:13-43
 activity#com.example.agendesusactividades.MainActivity
 ADDED from C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:29:9-41:20
 	android:exported

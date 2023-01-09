@@ -34,7 +34,7 @@
 22-->C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:13:9-58
 23        <activity
 23-->C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:15:9-21:20
-24            android:name="com.example.agendesusactividades.NuevoActivity"
+24            android:name="com.example.agendesusactividades.MainActivity2"
 24-->C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:16:13-42
 25            android:exported="false" >
 25-->C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:17:13-37
@@ -47,8 +47,8 @@
 29        </activity>
 30        <activity
 30-->C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:22:9-28:20
-31            android:name="com.example.agendesusactividades.MainActivity2"
-31-->C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:23:13-42
+31            android:name="com.example.agendesusactividades.CrearBaseDatos"
+31-->C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:23:13-43
 32            android:exported="false" >
 32-->C:\Users\karla izabal\Documents\Actividades_Optativa\Proyectoc\Proyecto-master\app\src\main\AndroidManifest.xml:24:13-37
 33            <meta-data

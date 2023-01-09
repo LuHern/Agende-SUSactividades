@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
 
     Button boton;
 
-    Button btnCrear;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,13 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.inicio_sesion_relative);
         boton = (Button) findViewById(R.id.btn_acceder);
 
-        btnCrear = findViewById(R.layout.activity_main);
-
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                startActivity(new Intent(MainActivity.this, MainActivity2.class));
+                startActivity(new Intent(MainActivity.this, CrearBaseDatos.class));
 
             }
         });

@@ -54,9 +54,9 @@ id tv_fecha_inicio
 id tv_fecha_termina
 id tv_nombre
 id tv_owner_act
+layout activity_crear_base_datos
 layout activity_main
 layout activity_main2
-layout activity_nuevo
 layout data_down_layout_relative
 layout data_up_layout_relative
 layout inicio_sesion_relative

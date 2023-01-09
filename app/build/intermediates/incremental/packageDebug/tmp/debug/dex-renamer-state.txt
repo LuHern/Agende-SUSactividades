@@ -1,10 +1,13 @@
-#Wed Dec 21 17:21:45 MST 2022
-base.2=C\:\\Users\\cruze\\AndroidStudioProjects\\AgendeSusActividades\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+#Sun Jan 08 16:43:45 GMT-09:00 2023
+path.3=1/classes.dex
 path.2=12/classes.dex
-base.1=C\:\\Users\\cruze\\AndroidStudioProjects\\AgendeSusActividades\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=C\:\\Users\\cruze\\AndroidStudioProjects\\AgendeSusActividades\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.0=classes.dex
+base.3=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.2=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.1=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-path.0=classes.dex

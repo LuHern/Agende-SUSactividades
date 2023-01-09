@@ -18,16 +18,18 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("CREATE TABLE IF NOT EXISTS " +TABLE_AGENDA + "(" +
-                " nombre TEXT NOT NULL," +
-                " descripcion TEXT NOT NULL," +
-                " fecha_inicio TEXT NOT NULL," +
-                " fecha_culminacion TEXT NOT NULL," +
-                " usuario_encargado TEXT NOT NULL)");
+
+        sqLiteDatabase.execSQL("CREATE TABLE IF NOT EXISTS " + TABLE_AGENDA + "(" +
+                "nombre TEXT NOT NULL," +
+                "descripcion TEXT NOT NULL," +
+                "fecha_inicio TEXT NOT NULL," +
+                "fecha_culminacion TEXT NOT NULL," +
+                "usuario_encargado TEXT NOT NULL)");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+
         sqLiteDatabase.execSQL("DROP TABLE " + TABLE_AGENDA);
         onCreate(sqLiteDatabase);
     }
