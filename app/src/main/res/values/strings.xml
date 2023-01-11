@@ -15,6 +15,7 @@
     <string name="espacio"> </string>
     <string name="btn_crear">Crear</string>
     <string name="menu_nuevo">Nueva Actividad</string>
+    <string name="menu_refrescar">Refrescar</string>
 
 
 </resources>

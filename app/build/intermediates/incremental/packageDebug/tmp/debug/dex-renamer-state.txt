@@ -1,14 +1,14 @@
-#Mon Jan 09 14:17:02 GMT-09:00 2023
+#Mon Jan 09 16:20:05 MST 2023
 path.4=1/classes.dex
 path.3=12/classes.dex
 path.2=11/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.4=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.3=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.2=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.1=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\karla izabal\\Documents\\Actividades_Optativa\\Proyectoc\\Proyecto-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.4=C\:\\Users\\cruze\\AndroidStudioProjects\\Agende-SUSactividades\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.3=C\:\\Users\\cruze\\AndroidStudioProjects\\Agende-SUSactividades\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.2=C\:\\Users\\cruze\\AndroidStudioProjects\\Agende-SUSactividades\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.1=C\:\\Users\\cruze\\AndroidStudioProjects\\Agende-SUSactividades\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\cruze\\AndroidStudioProjects\\Agende-SUSactividades\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

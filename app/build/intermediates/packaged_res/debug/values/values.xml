@@ -32,6 +32,7 @@
     <string name="et_numb_act">Actividad N#</string>
     <string name="et_user_activity">Usuario Encargado</string>
     <string name="menu_nuevo">Nueva Actividad</string>
+    <string name="menu_refrescar">Refrescar</string>
     <string name="texto_presentacion">Agende SUS Actividades</string>
     <string name="tv_password">Contraseña</string>
     <string name="tv_usuario">Usuario</string>

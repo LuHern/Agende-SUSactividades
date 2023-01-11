@@ -45,6 +45,7 @@ id imageView
 id img_login
 id lista_actividades
 id menu_nuevo
+id refrescar
 id textView
 id textView2
 id textView3
@@ -84,6 +85,7 @@ string et_num_activity
 string et_numb_act
 string et_user_activity
 string menu_nuevo
+string menu_refrescar
 string texto_presentacion
 string tv_password
 string tv_usuario

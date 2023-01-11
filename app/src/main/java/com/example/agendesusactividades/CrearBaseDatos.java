@@ -64,12 +64,19 @@ public class CrearBaseDatos extends AppCompatActivity {
         if (item.getItemId() == R.id.menu_nuevo) {
             nuevoRegistro();
             return true;
-        }
+        }else
+            refrescarVista();
         return super.onOptionsItemSelected(item);
     }
+
+
 
     private void nuevoRegistro(){
         Intent intent = new Intent(CrearBaseDatos.this, MainActivity2.class);
         startActivity(intent);
+    }
+
+    private void refrescarVista(){
+        setContentView(R.layout.activity_crear_base_datos);
     }
 }
